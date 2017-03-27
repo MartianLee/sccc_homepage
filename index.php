@@ -69,6 +69,12 @@
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="problem_crawler_for_SCCC_boj/src/sccc_solved_problem.html">Solved Problem</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://www.acmicpc.net/group/543">BOJ Group</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -85,8 +91,6 @@
                 <div class="intro-lead-in">Welcome to SCCC Homepage</div>
                 <div class="intro-heading">We Study, We Solve</div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-                <a href="problem_crawler_for_SCCC_boj/src/sccc_solved_problem.html" class="btn btn-xl">SCCC가 푼 문제</a>
-                <a href="https://www.acmicpc.net/group/543" class="page-scroll btn btn-xl">SCCC BOJ 그룹</a>
             </div>
         </div>
     </header>
@@ -303,7 +307,7 @@
                     <div class="team-member">
                         <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
                         <h4>10정창용</h4>
-                        <p class="text-muted">14년도 회장.<br>창용오빠 사랑해요!</p>
+                        <p class="text-muted">14년도 회장</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -333,7 +337,7 @@
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                         <h4>황준영</h4>
-                        <p class="text-muted">2014 ACM-ICPC 동상<br>2016 ACM-ICPC 동상<br>최고야 황준영♥</p>
+                        <p class="text-muted">2014 ACM-ICPC 동상<br>2016 ACM-ICPC 동상<br>2014,2015 겨울 스터디 담당</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -348,6 +352,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">졸업생 명단이 더 추가될 예정입니다.</p>
+                    <a href="book.php" class="btn btn-xl">재학생 명단</a>
                 </div>
             </div>
         </div>
