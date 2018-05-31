@@ -401,9 +401,11 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <a href="https://www.facebook.com/SSUSCCC/">
-                                  <button type="submit" class="btn btn-xl">페이스북으로 연락하기</button>
-                                </a>
+                                  <button class="btn btn-xl">
+                                    <a href="https://www.facebook.com/SSUSCCC/">
+                                      페이스북으로 연락하기
+                                    </a>
+                                  </button>
                             </div>
                         </div>
                     </form>
