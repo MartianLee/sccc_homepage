@@ -232,6 +232,16 @@
                         <p class="text-muted">팀 Jaedaero_Noraboja!!!</p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/7.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
                         <h4>교내대회 1등, ACM-ICPC 은상</h4>
                         <p class="text-muted">팀 Today_is_Youngjeong_birthday</p>
                     </div>
@@ -264,22 +274,20 @@
                         <p class="text-muted">SCCC 소속 5명 진출</p>
                     </div>
                 </div>
-
-		<div class="col-md-4 col-sm-6 portfolio-item">
-		    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-			<div class="portfolio-hover">
-			    <div class="portfolio-hover-content">
-				<i class="fa fa-plus fa-3x"></i>
-			    </div>
-			</div>
-			<img src="" class="img-responsive" alt="">
-		    </a>
-		    <div class="portfolio-caption">
-			<h4>숭실대학교 프로그래밍 컨테스트</h4>
-			<p class="text-muted">SCCC 주최,  NAVER D2 후원</p>
-		    </div>
-		</div>
-
+            		<div class="col-md-4 col-sm-6 portfolio-item">
+            		    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+            			<div class="portfolio-hover">
+            			    <div class="portfolio-hover-content">
+            				<i class="fa fa-plus fa-3x"></i>
+            			    </div>
+            			</div>
+            			<img src="" class="img-responsive" alt="">
+            		    </a>
+            		    <div class="portfolio-caption">
+            			<h4>숭실대학교 프로그래밍 컨테스트</h4>
+            			<p class="text-muted">SCCC 주최,  NAVER D2 후원</p>
+            		    </div>
+            		</div>
 	        </div>
         </div>
     </section>
