@@ -176,6 +176,21 @@
                         <p class="text-muted">올해도 6자리입니다!</p>
                     </div>
                 </div>
+<!--            <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#activityModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/activity/4.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>문제짱</h4>
+                        <p class="text-muted">매월 문제짱에게 보상을 줍니다!</p>
+                    </div>
+                </div>
+-->
             </div>
         </div>
     </section>
@@ -190,6 +205,7 @@
                 </div>
             </div>
             <div class="row">
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -204,6 +220,7 @@
                         <p class="text-muted">17년 정기 회의</p>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -218,6 +235,7 @@
                         <p class="text-muted">SCCC 소속 5명 진출</p>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -232,10 +250,22 @@
                         <p class="text-muted">팀 Jaedaero_Noraboja!!!</p>
                     </div>
                 </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/7.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
                         <h4>교내대회 1등, ACM-ICPC 은상</h4>
                         <p class="text-muted">팀 Today_is_Youngjeong_birthday</p>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -250,7 +280,8 @@
                         <p class="text-muted">16년 11월 25일 정보관 101호</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+
+	        <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -301,19 +332,12 @@
                         <p class="text-muted"></p>
 <!--	                <ul class="list-inline social-buttons">
 	                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-=======
-                        <h4>10정창용</h4>
-                        <p class="text-muted">14년도 회장</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
->>>>>>> 0f823ebff2eb5b21e74be15f61e20fcfce520018
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
-<<<<<<< HEAD
 -->	            </div>
                 </div>
                 <div class="col-sm-4">
@@ -323,17 +347,10 @@
                         <p class="text-muted"></p>
 <!--	                <ul class="list-inline social-buttons">
 	                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-=======
-                        <h4>11박정우</h4>
-                        <p class="text-muted">2015 ACM-ICPC 동상</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
->>>>>>> 0f823ebff2eb5b21e74be15f61e20fcfce520018
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
-<<<<<<< HEAD
 	                    </li>
                         </ul>
 -->		    </div>
@@ -344,17 +361,11 @@
                         <h4>13최윤호</h4>
                         <p class="text-muted"></p>
 <!--                        <ul class="list-inline social-buttons">
-=======
-                        <h4>황준영</h4>
-                        <p class="text-muted">2014 ACM-ICPC 동상<br>2016 ACM-ICPC 동상<br>2014,2015 겨울 스터디 담당</p>
-                        <ul class="list-inline social-buttons">
->>>>>>> 0f823ebff2eb5b21e74be15f61e20fcfce520018
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
-<<<<<<< HEAD
 	                    </li>
                         </ul>
 -->                 </div>
@@ -367,7 +378,7 @@
 			<h4>14김민주</h4>
 			<p class="text-muted"></p>
 		    </div>
-		</div>
+		</div>			
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -476,9 +487,9 @@
                                     <strong><a href="https://www.acmicpc.net/group/543">BOJ그룹 링크</a></strong>
                                 </p>
                                 <ul class="list-inline">
-                                    <li>시간 : 매주 수요일 7시 30분</li>
-                                    <li>장소 : 정보과학관 301호</li>
-                                    <li>주최 : SCCC2017</li>
+                                    <li>시간 : 매주 수요일</li>
+                                    <li>장소 : 정보과학관</li>
+                                    <li>주최 : SCCC</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Activity</button>
                             </div>
@@ -545,6 +556,7 @@
             </div>
         </div>
     </div>
+<!--
     <!-- Activity Modal 4 -->
     <div class="portfolio-modal modal fade" id="activityModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -575,6 +587,7 @@
             </div>
         </div>
     </div>
+-->
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
