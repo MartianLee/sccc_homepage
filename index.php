@@ -24,6 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -402,7 +403,7 @@
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                   <button class="btn btn-xl">
-                                    <a href="https://www.facebook.com/SSUSCCC/">
+                                    <a class="facebook-link" href="https://www.facebook.com/SSUSCCC/">
                                       페이스북으로 연락하기
                                     </a>
                                   </button>
