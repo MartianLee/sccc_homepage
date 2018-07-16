@@ -1,0 +1,43 @@
+%nav#mainNav.navbar.navbar-default.navbar-custom.navbar-fixed-top
+
+  .container
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header.page-scroll
+      %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        Menu
+        %i.fa.fa-bars
+      %a.navbar-brand.page-scroll{:href => "#page-top"} SCCC Home
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li.hidden
+          %a{:href => "#page-top"}
+        %li
+          %a.page-scroll{:href => "#services"} SCCC
+        %li
+          %a.page-scroll{:href => "#activity"} Activity
+        %li
+          %a.page-scroll{:href => "#portfolio"} Portfolio
+        %li
+          %a.page-scroll{:href => "#team"} Team
+        %li
+          %a.page-scroll{:href => "problem_crawler_for_SCCC_boj/src/sccc_solved_problem.html"} Solved Problem
+        %li
+          %a.page-scroll{:href => "https://www.acmicpc.net/group/543", :target => "_blank"} BOJ Group
+        %li
+          %a.page-scroll{:href => "#contact"} Contact
+        - if user_signed_in?
+          %li
+            %a{:href => "#"}
+              = current_user.email
+          %li
+            = link_to 'Sign out', destroy_user_session_path, method: :delete
+        - else
+          %li
+            = link_to 'Sign in', new_user_session_path
+          %li
+            = link_to 'Sign up', new_user_registration_path
+
+    / /.navbar-collapse
+  / /.container-fluid

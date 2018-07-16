@@ -1,0 +1,21 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//colors
+$color_log_cabin_approx: #222222;
+$white: white;
+
+body {
+  background-color: $color_log_cabin_approx;
+}
+.page-container {
+  background-color: $white;
+  @media(min-width: 768px) {
+    margin-top: 200px;
+  }
+  @media(max-width: 767px) {
+    margin-top: 53px;
+  }
+  padding-top: 5px;
+}
