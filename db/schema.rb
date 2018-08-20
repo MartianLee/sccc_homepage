@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_16_143249) do
+ActiveRecord::Schema.define(version: 2018_08_20_112022) do
 
   create_table "ckeditor_assets", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci", force: :cascade do |t|
     t.string "data_file_name", null: false
@@ -38,6 +38,12 @@ ActiveRecord::Schema.define(version: 2018_07_16_143249) do
     t.string "last_sign_in_ip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "nickname"
+    t.text "student_id"
+    t.string "baekjoon_id"
+    t.string "codeforce_id"
+    t.string "uva_id"
+    t.text "info"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
