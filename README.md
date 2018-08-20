@@ -15,6 +15,7 @@ Things you may want to cover:
 
 * Database creation
 mysql > create database sccc_development CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+create database sccc_test CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 
 * Database initialization
