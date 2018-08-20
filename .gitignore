@@ -33,3 +33,37 @@ node_modules
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+/.bundle
+/.powenv
+/.powenv-bak
+.sass-cache
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+.byebug_history
+
+
+db/*.sqlite3
+db/*.sqlite3-journal
+public/uploads/*
+public/sitemaps/*
+
+dump.rdb
+
+app/assets/images/email/.DS_Store
+app/assets/images/.DS_Store
+
+app/assets/.DS_Store
+
+local_env.yml
+test_env.yml
+
+.DS_Store
+
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+/config/credentials.yml.enc
