@@ -1,0 +1,36 @@
+.container#sign-up
+  %h4.sign-up__title 숭실대학교 컴퓨터학부 문제해결 소모임 SCCC
+  %h1.text-center.sign-up__txt
+    %i.fa.fa-sign-in
+    회원가입
+  .sign-up__form
+  = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+    / = devise_error_messages!
+    .form-group
+      = f.label :email do
+        이메일(ID) :
+      = f.text_field :email, autofocus: true, class: 'form-control'
+    .form-group
+      = f.label :password do
+        비밀번호 :
+      = f.text_field :password, autofocus: true, autocomplete: "off", class: 'form-control'
+      .text-primary
+        * 8글자 이상 넣어주세요
+    .form-group
+      = f.label :password_confirmation do
+        비밀번호 확인 :
+      = f.password_field :password_confirmation, autocomplete: "off", class: 'form-control'
+    .form-group
+      = f.label :student_id do
+        학번 :
+      = f.text_field :student_id, autofocus: true, class: 'form-control'
+    .form-group
+      = f.label :nickname do
+        닉네임 :
+      = f.text_field :nickname, autofocus: true, class: 'form-control'
+    .form-group
+      = f.label :info do
+        자기소개 :
+      = f.text_field :info, autofocus: true, class: 'form-control'
+    .form-group
+      = f.submit '회원가입', class: 'btn btn-primary btn-lg', data: { disable_with: "저장 중..." }

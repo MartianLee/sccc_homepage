@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: sccc_homepage_production
-  username: sccc_homepage
+  database: sccc_production
+  username: sccc_admin
   password: <%= ENV['SCCC_HOMEPAGE_DATABASE_PASSWORD'] %>

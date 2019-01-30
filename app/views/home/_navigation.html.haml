@@ -30,7 +30,7 @@
         - if user_signed_in?
           %li
             %a{:href => "#"}
-              = current_user.email
+              ="@#{current_user.nickname}"
           %li
             = link_to 'Sign out', destroy_user_session_path, method: :delete
         - else
